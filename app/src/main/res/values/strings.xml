@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SteamStats</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_PerfSaved">Perfis salvos</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="texto_usuario">Usuário</string>
+    <string name="texto_senha">Senha</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="botao_Cadstrar">Cadastar</string>
+    <string name="botao_procurar">Procurar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_Pefil">Perfil do usuário</string>
+    <string name="title_activity_PerfisSalvos">Perfis Salvos</string>
+    <string name="title_activity_Busca">Buscar Usuário</string>
+    <string name="texto_buscar">Buscar</string>
+    <string name="texto_login">Login</string>
+    <color name="white">#EEEEEE</color>
+    <color name="cinza">#c1000000</color>
+    <color name="azul">#f8141452</color>
+    <color name="black">#212121</color>
+    <color name="layoutColor">#ff0a4e68</color>
+</resources>

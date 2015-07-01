@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:orientation="horizontal"
+        android:background="@color/cinza"
+        >
+        <ImageView
+            android:background="@color/white"
+            android:padding="2dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgAvatar"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtNick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/txtSteamid"
+                android:layout_centerHorizontal="true"
+                android:text="SteamId: "
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/txtNome"
+                android:layout_centerHorizontal="true"
+                android:text="Nome: "
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/txtLocal"
+                android:layout_centerHorizontal="true"
+                android:text="Localização: "
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/txtStatus"
+                android:layout_centerHorizontal="true"
+                android:text="Localização: "
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="390dp"
+        android:gravity="left"
+        android:layout_height="30dp"
+        android:id="@+id/txtAtividade"
+        android:textColor="@color/white"
+        android:text="Atividade Recente"
+        android:textSize="20dp"
+        android:background="@color/cinza"
+        />
+
+
+    <ListView
+        android:id="@+id/listRecentGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+
+</LinearLayout>

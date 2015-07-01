@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dirceubelem.GamesStats.LoginActivity"
+    android:background="@color/cinza">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:src="@drawable/logostea"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_usuario"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUsuario"
+            android:inputType="textEmailAddress"
+            android:hint="Entre com o usuário"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_senha"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSenha"
+            android:hint="Entre com a senha"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/botao_entrar"
+        android:id="@+id/btnEntrar"
+            android:onClick="acaoBotaoEntrar"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/layoutColor"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/botao_Cadstrar"
+            android:id="@+id/btnCadastrar"
+            android:backgroundTint="@color/layoutColor"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
